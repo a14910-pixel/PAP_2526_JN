@@ -9,13 +9,13 @@ body { font-family: 'Segoe UI', sans-serif; background-color: #d3ffb3; color: wh
  display: flex;
  flex-direction: column;
 }
-.menu-container { padding: 20px; }
+.menu-container { padding: 20px;   display: flex; justify-content: flex-end; }
 .hamburger { font-size: 30px; cursor: pointer; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 .hidden { display: none; }
 #nav-menu { background: rgba(255, 255, 255, 0.95); padding: 20px; border-radius: 10px;
 width: 90%; margin: 10px auto; }
-#nav-menu a { display: block; color: black; padding: 10px; text-decoration: none; fontweight: bold; }
+#nav-menu a { display: block; color: black; padding: 10px; text-decoration: none; font-weight: bold; }
 .hero-content {
  flex-grow: 1;
  display: flex;
@@ -25,7 +25,7 @@ width: 90%; margin: 10px auto; }
  text-align: center;
  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
-.main-logo { width: 150px; border-radius: 50px; margin-bottom: 20px; }
+.main-logo { width: 250px; border-radius: 20px; margin-bottom: 20px; }
 /* --- Página PAP --- */
 /* Garantir que o header e a main da página PAP centralizam tudo */
 header { text-align: center; padding: 30px 20px 10px 20px; }
