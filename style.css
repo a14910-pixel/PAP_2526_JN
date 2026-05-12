@@ -2,8 +2,7 @@
 body { font-family: 'Segoe UI', sans-serif; background-color: d3ffb3; color: white; }
 /* --- Ecrã Inicial --- */
 .home-bg {
- background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
- url('assets/images/pap-preview.png');
+ background-color: #d3ffb3;
  background-size: cover;
  background-position: center;
  min-height: 100vh;
