@@ -3,12 +3,12 @@
  "name": "My Creative Hub - Digital Card",
  "icons": [
  {
- "src": "assets/images/Icon-192.png",
+ "src": "assets/images/Icon_192.png",
  "type": "image/png",
  "sizes": "192x192"
  },
  {
- "src": "assets/images/Icon-512.png",
+ "src": "assets/images/Icon_512.png",
  "type": "image/png",
  "sizes": "512x512"
  }
