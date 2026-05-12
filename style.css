@@ -9,8 +9,10 @@ body { font-family: 'Segoe UI', sans-serif; background-color: #d3ffb3; color: wh
  display: flex;
  flex-direction: column;
 }
-.menu-container { padding: 20px;   display: flex; justify-content: flex-end; }
-.hamburger { font-size: 30px; cursor: pointer; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+.menu-container { padding: 20px; position: relative}
+.hamburger { font-size: 30px; cursor: pointer; text-shadow: 2px 2px 4px rgba(0,0,0,0.8) position: absolute;
+  right: 20px;
+  top: 20px;;
 }
 .hidden { display: none; }
 #nav-menu { background: rgba(255, 255, 255, 0.95); padding: 20px; border-radius: 10px;
