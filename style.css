@@ -1,5 +1,5 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'Segoe UI', sans-serif; background-color: #d3ffb3; color: white; }
+body { font-family: 'Segoe UI', sans-serif; background-color: #d3ffb3; color: black; }
 /* --- Ecrã Inicial --- */
 .home-bg {
  background-color: #d3ffb3;
