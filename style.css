@@ -39,7 +39,6 @@ width: 90%; margin: 10px auto; }
 }
 /* História */
 header { text-align: center; padding: 30px 20px 10px 20px; }
-header .bio { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 5px; }
 .history-bg {
  background-color: #d3ffb3;
  background-size: cover;
@@ -47,7 +46,8 @@ header .bio { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 5px; }
  min-height: 100vh;
  display: flex;
  flex-direction: column;
-}
+ padding: 20px; border-radius: 10px;
+width: 90%; margin: 10px auto; }
 .history-content {
  text-align: center;
 .history-text { font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
