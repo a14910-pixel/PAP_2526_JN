@@ -9,6 +9,46 @@ body { font-family: 'Segoe UI', sans-serif; background-color: #d3ffb3; color: wh
  display: flex;
  flex-direction: column;
 }
+.sobre-bg {
+ background-color: #d3ffb3;
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+.vozes-bg {
+ background-color: #d3ffb3;
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+.storyboard-bg {
+ background-color: #d3ffb3;
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+.history-bg {
+ background-color: #d3ffb3;
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+.animation-bg {
+ background-color: #d3ffb3;
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
 .menu-container { padding: 20px; position: relative}
 .hamburger { font-size: 30px; cursor: pointer; text-shadow: 2px 2px 4px rgba(0,0,0,0.8) position: absolute;
   right: 20px;
