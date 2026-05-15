@@ -52,7 +52,7 @@ width: 90%; margin: 10px auto; }
  text-align: center;
 .history-text { font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
 padding: 10px; text-align: justify; }
- .history-list{ font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
+.history-list{ font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
 padding: 10px; text-align: justify;}
 /*vozes*/
 .vozes-bg {
