@@ -38,6 +38,8 @@ width: 90%; margin: 10px auto; }
  flex-direction: column;
 }
 /* História */
+header { text-align: center; padding: 30px 20px 10px 20px; }
+header .bio { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 5px; }
 .history-bg {
  background-color: #d3ffb3;
  background-size: cover;
@@ -48,7 +50,6 @@ width: 90%; margin: 10px auto; }
 }
 .history-text { font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
 padding: 10px; text-align: justify; }
-
 /*vozes*/
 .vozes-bg {
  background-color: #d3ffb3;
