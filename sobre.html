@@ -5,4 +5,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
   </head>
+  <body class="home-bg">
+    <div class="menu-container">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <nav id="nav-menu" class="hidden">
+        <a href="sobre.html">Sobre a PAP</a>
+        <a href="História.html">Hístoria da animação</a>
+        <a href="Storyboard.html">Storyboard</a>
+        <a href="Vozes.html">Erros de vozes</a>
+        <a href="Animação.html">Uma folha muda tudo</a>
+        <a href="mailto:a14910@aecister.pt">Contacto</a>
+      </nav>
+     </div>
+     <main class="hero-content">
+        <h1>O porque deste app?</h1>
+        <p>Prova apetidão profissional</p>
+        <h1>O que é isto</h1>
+        <p> </p>
+        <h1>Para que isto serve</h1>
+        <p> </p>
+     </main>
+     <footer>project made by Jessica Nicolau</footer>
+    <a href="index.html" class="btn">Voltar ao inicio</a>
+    <script>
+       function toggleMenu() {
+       document.getElementById('nav-menu').classList.toggle('hidden');
+       }
+     </script>
+  </body>
 </html>
