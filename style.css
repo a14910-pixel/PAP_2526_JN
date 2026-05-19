@@ -84,9 +84,10 @@ padding: 10px; text-align: justify;}
 /* Botão e Rodapé */
 .btn {
     display: block;
-    width: 250px;
+    width: 80%;
+    max-width: 250px;
     margin: 30px auto;
-    padding: 18px;
+    padding: 15px;
     background-color: #76b900;
     color: white;
     text-align: center;
@@ -95,7 +96,6 @@ padding: 10px; text-align: justify;}
     font-size: 18px;
     font-weight: bold;
     font-family: Arial, sans-serif;
-    transition: 0.3s;
 }
 
 .btn:hover {
