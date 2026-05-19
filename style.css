@@ -37,6 +37,8 @@ width: 90%; margin: 10px auto; }
  display: flex;
  flex-direction: column;
 }
+.sobre-text { font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
+padding: 10px; text-align: justify; }
 /* História */
 header { text-align: center; padding: 30px 20px 10px 20px; }
 .history-bg {
