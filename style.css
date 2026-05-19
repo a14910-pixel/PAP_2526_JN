@@ -49,7 +49,7 @@ header { text-align: center; padding: 30px 20px 10px 20px; }
  padding: 20px; border-radius: 10px;
 width: 90%; margin: 10px auto; }
 .history-content {
- text-align: center;
+ text-align: center; }
 .history-text { font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
 padding: 10px; text-align: justify; }
 .history-list{ font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
@@ -82,16 +82,24 @@ padding: 10px; text-align: justify;}
  flex-direction: column;
 }
 /* Botão e Rodapé */
-.btn{
-    display:inline-block;
-    background-color:#76b900;
-    color:white;
-    padding:15px 40px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
-    font-family:Arial, sans-serif;
-    text-align:center;
+.btn {
+    display: block;
+    width: 250px;
+    margin: 30px auto;
+    padding: 18px;
+    background-color: #76b900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
 }
 footer { text-align: center; color: rgba(255,255,255,0.7); font-size: 10px; padding:
 10px; margin-top: auto; } 
