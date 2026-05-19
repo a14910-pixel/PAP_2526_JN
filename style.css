@@ -82,18 +82,16 @@ padding: 10px; text-align: justify;}
  flex-direction: column;
 }
 /* Botão e Rodapé */
-.btn {
-  display: block;
-  width: 220px;
-  background: #76b900;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin: 20px auto;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
+.btn{
+    display:inline-block;
+    background-color:#76b900;
+    color:white;
+    padding:15px 40px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+    text-align:center;
 }
 footer { text-align: center; color: rgba(255,255,255,0.7); font-size: 10px; padding:
 10px; margin-top: auto; } 
