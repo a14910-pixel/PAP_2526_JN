@@ -28,6 +28,7 @@ width: 90%; margin: 10px auto; }
  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
 .main-logo { width: 350px; border-radius: 20px; margin-bottom: 20px; }
+.main-story { width: 350px; border-radius: 20px; margin-bottom: 20px; }
 /* Sobre */
 .sobre-bg {
  background-color: #d3ffb3;
