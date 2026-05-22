@@ -66,6 +66,20 @@ padding: 10px; text-align: justify;}
  display: flex;
  flex-direction: column;
 }
+.audio-box{
+  background:white;
+  padding:20px;
+  margin:20px auto;
+  width:300px;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.audio-box h2{
+  margin-bottom:15px;
+}
+audio{
+  width:100%;
+}
 /*Storycoard*/
 .storyboard-bg {
  background-color: #d3ffb3;
